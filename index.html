@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Explorer</title>
+    <link rel="icon" type="image/x-icon" href="world.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><p>World Explorer</p></header>
+    <div id="container">
+        <div id="filters">
+            <div id="searchBar">
+                <input id="nameSearchInput" type="text" placeholder="Search country">
+                <button id="SearchBtn">Go</button>
+            </div>   
+            <div id="parameters">
+                <button id="searchName">Search by name</button>
+                <button id="searchCapital">Search by capital city</button>
+            </div>
+        </div>
+        <div id="info">
+            <div id="name">
+                <b><p id="countryName"></p></b>
+            </div>
+            <div id="flag">
+                <img id="countryFlag">
+            </div>
+            <div id="extraInfo">
+                <p id="language"></p>
+                <p id="continent"></p>
+                <p id="capital"></p>
+                <p id="population"></p>
+                <p id="neighbours"></p>
+                <a id="googlemaps"></a>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
